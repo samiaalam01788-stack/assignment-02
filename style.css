@@ -4,6 +4,7 @@ body {
   font-optical-sizing: auto;
   font-variation-settings:
     "wdth" 100;
+    max-width: 1600px;
 }
 nav{
     background-color: #1A0B2E;
@@ -29,11 +30,44 @@ ul li {
 }
 .btn{
     margin: auto;
-    height: 40px;
+    height: 50px;
     width: 180px;
     border: none;
     border-radius: 20px;
     font-size: 16px;
     font-weight :700;
-    background-color: rgb(180, 68, 68);
+    background-image: url(/assets/hero-circle.png);
+    background-size: cover;
+    background-image: fill;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+/* banner */
+
+.banner{
+    display: block;
+    height: 760px;
+    width: 100%;
+    background-image:url(/assets/hero-bg.png) ;
+}
+.box{
+   padding: 90px;
+    padding-left: 625px;
+    position: relative;
+    display: inline-block;
+}
+.img-1{
+    
+    max-width: 350px;
+
+}
+.img-2{
+    /* margin: auto; */
+    position: absolute;
+    /* padding: 90px;
+    padding-left: 50px; */
+    transform: translate(120px, -260px);
+  
+    max-width: 200px;
+}
+
