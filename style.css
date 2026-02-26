@@ -133,7 +133,7 @@ section{
 
 }
 section .view{
-    border-top: 0.25px solid white;
+    border-top: 0.05px solid white;
     width: 240px;
     height: 94px;
     text-align: center;
@@ -150,4 +150,57 @@ section .view p{
     font-size: 16px;
     font-weight: 100;
     color: white;
+}
+.container-01{
+    display: grid;
+    justify-content: center;
+    margin: 0 120px ;
+    padding: 120px 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.item{
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.item img{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    padding: 10px;
+}
+.item h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.item p{
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.curts-1{
+    grid-row: span 2;
+    background-color: #351165;
+
+}
+.curts-2{
+       grid-column: span 2;
+       background-color: #351165;
+    
+}
+.curts-3{
+       grid-column: span 2;
+       background-color: #351165;
+
+}
+.curts-4{
+    grid-column: span 1;
+    background-color: #351165;
+
+
 }
