@@ -11,6 +11,7 @@ body {
     max-width: 1600px;
     width: 100%;
     overflow-x:hidden;
+    /* margin: 0; */
 }
 nav{
     background-color: #1A0B2E;
@@ -78,8 +79,12 @@ header{
   
     max-width: 200px;
 }
+main{
+    margin: 0;
+}
 section{
     background-color: #1A0B2E;
+    padding-bottom: 120px;
 }
     
 .banner-text{
@@ -155,7 +160,7 @@ section .view p{
     display: grid;
     justify-content: center;
     margin: 0 120px ;
-    padding: 120px 150px;
+    /* padding: 120px 150px; */
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 
@@ -185,22 +190,22 @@ section .view p{
 
 .curts-1{
     grid-row: span 2;
-    background-color: #351165;
+    background-color: #250D44;
 
 }
 .curts-2{
        grid-column: span 2;
-       background-color: #351165;
+       background-color: #250D44;
     
 }
 .curts-3{
        grid-column: span 2;
-       background-color: #351165;
+       background-color: #250D44;
 
 }
 .curts-4{
     grid-column: span 1;
-    background-color: #351165;
+    background-color:#250D44;
 
 
 }
@@ -210,6 +215,7 @@ section .view p{
       align-items: center;
       padding: 0 120px 120px 120px;
       gap: 19px;
+      margin: 0;
 
 }
 .episodes{
@@ -220,6 +226,7 @@ section .view p{
     border: none;
     border-radius: 20px;
     padding: 20px;
+    margin: 0;
 }
 .containter-04{
     display: flex;
@@ -233,11 +240,13 @@ section .view p{
     background-color: #250D44;
     color: white;
     padding: 120px;
-    
+    padding-bottom: 120px;
+
 }
 .containter-04 img{
     
      margin: 10px;
+     margin-bottom: 0;
     
 }
 .containter-04 h2{
@@ -258,4 +267,52 @@ section .view p{
     gap: 10px;
     margin-left: 40px;
     margin-top: 20px;
+}
+footer {
+    background-color: #1A0B2E;
+    background-image: url(/assets/footer-bg.png);
+    color: #FAFAFA;
+    margin: 0 auto ;
+}
+.footer h1{
+    padding-top: 120px;
+}
+.footer-heading{
+    padding-top: 120px;
+}
+.last-item{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+.last-cards{
+    display: flex;
+    /* margin: 10px; */
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.copy-text{
+    text-align: center;
+    font-weight: 100;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #FAFAFA;
+}
+
+@media (max-width :780px) {
+    nav {
+
+    }
+    
+    .container-01{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    
 }
