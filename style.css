@@ -204,3 +204,58 @@ section .view p{
 
 
 }
+.container-03{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 120px 120px 120px;
+      gap: 19px;
+
+}
+.episodes{
+    color: white;
+    background-color: #250D44;
+    width:  380px;
+    height: 500px ;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+.containter-04{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 1200px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 20px;
+    background-color: #250D44;
+    color: white;
+    padding: 120px;
+    
+}
+.containter-04 img{
+    
+     margin: 10px;
+    
+}
+.containter-04 h2{
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.containter-04 p{
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 40px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    gap: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
