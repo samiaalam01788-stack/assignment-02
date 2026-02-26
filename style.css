@@ -1,10 +1,16 @@
-
+*{
+    margin: 0;
+    padding: 0;
+     
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-variation-settings:
     "wdth" 100;
     max-width: 1600px;
+    width: 100%;
+    overflow-x:hidden;
 }
 nav{
     background-color: #1A0B2E;
@@ -30,17 +36,19 @@ ul li {
 }
 .btn{
     margin: auto;
-    height: 50px;
-    width: 180px;
+    height: 44px;
+    width: 140px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 16px;
-    font-weight :700;
+    font-weight :400;
     background-image: url(/assets/hero-circle.png);
     background-size: cover;
-    background-image: fill;
     background-position: center;
     background-repeat: no-repeat;
+}
+header{
+    width: 100%;
 }
 /* banner */
 
@@ -70,4 +78,76 @@ ul li {
   
     max-width: 200px;
 }
+section{
+    background-color: #1A0B2E;
+}
+    
+.banner-text{
+    text-align: center;
+    color: white;
+}
 
+.banner-text p{
+    font-size: 16px;
+    margin: 15px;
+}
+.btn-2{
+    /* margin: 24px  0 ; */
+    color: #00FF88;
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #00FF88;
+    border-radius: 20px;
+    padding: 5px;
+}
+/* .btn-2 img{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    margin: -5px -5px;
+
+} */
+.about-text{
+    
+    height: 222px;
+    width: 1200px;
+    color: white;
+    text-align: center;
+    border-bottom: 0.75 solid white;
+   
+}
+ h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.para{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 2;
+    padding-bottom: 20px;
+
+
+}
+section .view{
+    border-top: 0.25px solid white;
+    width: 240px;
+    height: 94px;
+    text-align: center;
+    padding: 20px;
+
+}
+section .view h4{
+    font-size: 33px;
+    font-weight: bold;
+    color: #00FF88;
+
+}
+section .view p{
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+}
